@@ -3,7 +3,7 @@
   "description" : "SOAP client.",
   "keywords" : ["xml", "soap"],
   "homepage" : "https://github.com/emote/emsoap.git",
-  "version" : "1.0.1",
+  "version" : "1.0.3",
   "author" : "Mike Schilling <mike@emotive.com>",
   "contributors" : [
   ],
@@ -15,8 +15,11 @@
     "type" : "git",
     "url" : "https://github.com/emote/emsoap.git"
   },
+  "scripts" : {
+    "test" : "node test/run.js"
+  },
   "dependencies" : {
-    "emutils"   : "https://github.com/emote/emutils/tarball/v1.0.1",
+    "emutils"   : "https://github.com/emote/emutils/tarball/v1.0.2",
     "emxml2js"  : "https://github.com/emote/emxml2js/tarball/v0.1.14"
   },
   "devDependencies" : {
