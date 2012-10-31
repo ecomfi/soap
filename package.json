@@ -19,8 +19,8 @@
     "test" : "node test/run.js"
   },
   "dependencies" : {
-    "emutils"   : "https://github.com/emote/emutils/tarball/v1.0.2",
-    "emxml2js"  : "https://github.com/emote/emxml2js/tarball/v0.1.14"
+    "emutils"   : "1.0.x",
+    "emxml2js"  : "0.1.14"
   },
   "devDependencies" : {
   }
