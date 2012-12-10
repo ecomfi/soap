@@ -120,7 +120,7 @@ var xmlResponse =
 
 var expectedResponse =
 {
-    GetCityForecastByZIPResult:
+    GetCityForecastByZIPResult$:
     {
         Success: true,
         ResponseText: 'City Found',

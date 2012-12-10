@@ -9,14 +9,14 @@ var ts = require('./trackerService');
 testutils.makeTypePointers(ws.service);
 testutils.makeTypePointers(ts.service);
 
-var request = {parameters: {ZIP : "94903"}};
+var request = {parameters$: {ZIP : "94903"}};
 
 var expectedXmlRequest =
 '<soap11:Envelope xmlns:pfx1="http://ws.cdyne.com/WeatherWS/" xmlns:soap11="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap12="http://www.w3.org/2001/12/soap-envelope" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" >\n' +
 '<soap11:Body >\n' +
-'<pfx1:GetCityForecastByZIP >\n' +
+'<parameters >\n' +
 '<pfx1:ZIP >94903</pfx1:ZIP>\n' +
-'</pfx1:GetCityForecastByZIP>\n' +
+'</parameters>\n' +
 '</soap11:Body>\n' +
 '</soap11:Envelope>';
 var xmlRequest = serializer.serialize(request, ws.service.operations.GetCityForecastByZIP.requestDesc);
@@ -26,10 +26,10 @@ request =
 {
     sessionId: "sessionPwd",
     containerId : "tracker1101",
-    filters :
+    filters$ :
         [
-            { name : "status", value : "closed"},
-            { name : "priority", value : "1"}
+            { name : "status", value$ : "closed"},
+            { name : "priority", value$ : "1"}
         ]
 };
 

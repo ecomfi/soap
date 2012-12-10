@@ -29,6 +29,7 @@ exports.service =
                     "ns": "http://ws.cdyne.com/WeatherWS/",
                     "xmlType": "ForecastReturn",
                     "name": "GetCityForecastByZIPResult",
+                    "jsName": "GetCityForecastByZIPResult$",
                     "minOccurs": "0"
                 }
             ],
@@ -358,9 +359,8 @@ exports.service =
                 "soapVersion": "1.1",
                 "parts": [
                     {
-                        "elementName": "GetCityForecastByZIP",
                         "name": "parameters",
-                        "elementNs": "http://ws.cdyne.com/WeatherWS/",
+                        "jsName": "parameters$",
                         "xmlType": "GetCityForecastByZIP_Type_VxlRT1",
                         "xmlTypeNs": "http://ws.cdyne.com/WeatherWS/"
                     }

@@ -19,7 +19,8 @@ exports.service =
                 {
                     "ns": "",
                     "jsonType": "string",
-                    "name": "value"
+                    "name": "value",
+                    "jsName": "value$"
                 }
             ],
             "ns": "http://schema.open.collab.net/sfee50/soap50/type",
@@ -214,6 +215,7 @@ exports.service =
                         "xmlTypeNs": "http://schema.open.collab.net/sfee50/soap50/type",
                         "xmlType": "SoapFilter",
                         "name": "filters",
+                        "jsName": "filters$",
                         "isArray": true
                     }
                 ]

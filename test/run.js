@@ -6,7 +6,9 @@ var emutils = require('emutils');
 var scripts =
     [
         "testNamespace.js",
-        "testXml.js"
+        "testXml.js",
+        "testDeserializer.js",
+        "testSerializer.js"
     ];
 
 emutils.runTests(__dirname, scripts, true);
