@@ -8,7 +8,8 @@ var scripts =
         "testNamespace.js",
         "testXml.js",
         "testDeserializer.js",
-        "testSerializer.js"
+        "testSerializer.js",
+        "testHttpRequest.js"
     ];
 
 emutils.runTests(__dirname, scripts, true);
