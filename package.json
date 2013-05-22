@@ -1,28 +1,29 @@
 {
-  "name" : "emsoap",
-  "description" : "SOAP client.",
-  "keywords" : ["xml", "soap"],
-  "homepage" : "https://github.com/emote/emsoap.git",
-  "version" : "1.0.11",
-  "author" : "Mike Schilling <mike@emotive.com>",
-  "contributors" : [
-  ],
-  "main" : "./lib/soap",
-  "directories" : {
-    "lib": "./lib"
-  },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/emote/emsoap.git"
-  },
-  "scripts" : {
-    "test" : "node test/run.js"
-  },
-  "dependencies" : {
-    "emutils"   : "~1.0.10",
-    "xml2js"  : "~0.2.2",
-    "request"   : "~2.12"
-  },
-  "devDependencies" : {
-  }
+    "name": "emsoap",
+    "description": "SOAP client.",
+    "keywords": [
+        "xml",
+        "soap"
+    ],
+    "homepage": "https://github.com/emote/emsoap.git",
+    "version": "1.0.12",
+    "author": "Mike Schilling <mike@emotive.com>",
+    "contributors": [],
+    "main": "./lib/soap",
+    "directories": {
+        "lib": "./lib"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/emote/emsoap.git"
+    },
+    "scripts": {
+        "test": "node test/run.js"
+    },
+    "dependencies": {
+        "emutils": "1.0.11",
+        "xml2js": "~0.2.2",
+        "request": "~2.12"
+    },
+    "devDependencies": {}
 }
