@@ -6,7 +6,7 @@
         "soap"
     ],
     "homepage": "https://github.com/emote/emsoap.git",
-    "version": "1.0.12",
+    "version": "1.0.13",
     "author": "Mike Schilling <mike@emotive.com>",
     "contributors": [],
     "main": "./lib/soap",
