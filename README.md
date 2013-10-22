@@ -1,4 +1,1 @@
-emsoap
-======
-
-SOAP client library
+SOAP
